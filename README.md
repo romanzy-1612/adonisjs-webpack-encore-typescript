@@ -27,11 +27,11 @@ Encore.enableTypeScriptLoader((tsConfig) => {
 
 # Doesn't work
 
-- before build need to manually npm install clients dependencies
-- sharing type or code definitions with resource applications. Type sharing works fine in dev, but fails the build. see `resources/frontend/src/app.ts`. Could not get code sharing to work
+- Before build need to manually npm install resource application dependencies
+- Cannot reliably sharing type or code definitions with resource application. Type sharing works fine in dev, but fails the build. see `resources/frontend/src/app.ts`. Could not get code sharing to work
 - Livereload hickups, as discribed here: `https://github.com/adonisjs/core/issues/3799#issuecomment-1185990337
 
-Console output :
+Console output when reloading looks correct...
 
 ```
 UPDATE: resources/frontend/src/app.ts
